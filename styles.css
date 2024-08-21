@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 4px solid #f39c12;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #f39c12;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+.header h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.contact-info {
+    margin-top: 1rem;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+.contact-info a i {
+    margin-right: 0.5rem;
+}
+
+.contact-info a:hover {
+    color: #f39c12;
+}
+
+main {
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h2 {
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.internship-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.internship-item i {
+    font-size: 1.5rem;
+    color: #f39c12;
+    margin-right: 0.5rem;
+}
+
+.internship-details {
+    font-size: 1rem;
+    color: #333;
+}
