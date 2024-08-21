@@ -6,14 +6,40 @@
     <title>M PalaniKumar | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; /* Aligns items vertically */
+        }
+
+        .header img {
+            border-radius: 50%; /* Optional: Makes the image circular */
+            max-width: 150px; /* Optional: Controls the size of the image */
+            height: auto;
+        }
+
+        .header h1, .header h3 {
+            text-align: center;
+            margin: 0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 <header class="header">
-    <div class="container" style="display: flex; align-items: center; justify-content: center;">
-        <img src="passport.jpeg" 
-             alt="M PalaniKumar">
-      
-    </div>
+    <div class="container">
+        <img src="passport.jpeg" alt="M PalaniKumar">
         <h1>M PalaniKumar</h1>
         <h3>Contact Me</h3>
         <div class="contact-info">
@@ -24,68 +50,67 @@
     </div>
 </header>
 
+<main class="container">
+    <section class="about-me section">
+        <h2>About Me</h2>
+        <p>I am M Palani Kumar, a college student passionate about web development, with skills in both front-end and back-end technologies. My expertise includes creating intuitive user interfaces and optimizing server-side processes. I enjoy solving complex problems, exploring new tools, and collaborating on innovative projects within the tech community.</p>
+    </section>
 
-    <main class="container">
-        <section class="about-me section">
-            <h2>About Me</h2>
-            <p>I am M Palani Kumar, a college student passionate about web development, with skills in both front-end and back-end technologies. My expertise includes creating intuitive user interfaces and optimizing server-side processes. I enjoy solving complex problems, exploring new tools, and collaborating on innovative projects within the tech community.</p>
-        </section>
+    <section class="education section">
+        <h2>Educational Qualifications</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SSLC</td>
+                    <td>Shri Makesh Vidyalaya Matriculation School</td>
+                    <td>2020</td>
+                    <td>78.20%</td>
+                </tr>
+                <tr>
+                    <td>HLSC</td>
+                    <td>Jai Saradha Matric Higher Secondary School</td>
+                    <td>2022</td>
+                    <td>87.33%</td>
+                </tr>
+                <tr>
+                    <td>UG</td>
+                    <td>KPRIET</td>
+                    <td>2022-2026</td>
+                    <td>7.50 CGPA</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-        <section class="education section">
-            <h2>Educational Qualifications</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Qualification</th>
-                        <th>Institution</th>
-                        <th>Year</th>
-                        <th>Percentage/CGPA</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>SSLC</td>
-                        <td>Shri Makesh Vidyalaya Matriculation School</td>
-                        <td>2020</td>
-                        <td>78.20%</td>
-                    </tr>
-                    <tr>
-                        <td>HLSC</td>
-                        <td>Jai Saradha Matric Higher Secondary School</td>
-                        <td>2022</td>
-                        <td>87.33%</td>
-                    </tr>
-                    <tr>
-                        <td>UG</td>
-                        <td>KPRIET</td>
-                        <td>2022-2026</td>
-                        <td>7.50 CGPA</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section class="internships section">
-            <h2>Internships</h2>
-            <div class="internship-item">
-                <i class="fas fa-briefcase"></i>
-                <div class="internship-details">
-                    <strong>Internship 1:</strong> One Data, Duration: 2 Weeks
-                </div>
+    <section class="internships section">
+        <h2>Internships</h2>
+        <div class="internship-item">
+            <i class="fas fa-briefcase"></i>
+            <div class="internship-details">
+                <strong>Internship 1:</strong> One Data, Duration: 2 Weeks
             </div>
-            <div class="internship-item">
-                <i class="fas fa-briefcase"></i>
-                <div class="internship-details">
-                    <strong>Internship 2:</strong> Codtech IT Solution, Duration: 4 Weeks
-                </div>
+        </div>
+        <div class="internship-item">
+            <i class="fas fa-briefcase"></i>
+            <div class="internship-details">
+                <strong>Internship 2:</strong> Codtech IT Solution, Duration: 4 Weeks
             </div>
-            <div class="internship-item">
-                <i class="fas fa-briefcase"></i>
-                <div class="internship-details">
-                    <strong>Internship 3:</strong> Unified Mentor, Duration: 4 Weeks
-                </div>
+        </div>
+        <div class="internship-item">
+            <i class="fas fa-briefcase"></i>
+            <div class="internship-details">
+                <strong>Internship 3:</strong> Unified Mentor, Duration: 4 Weeks
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+</main>
 </body>
 </html>
